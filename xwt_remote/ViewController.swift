@@ -12,6 +12,7 @@ class ViewController: CustomAlertViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(3)
         
         self.view.addSubview(testLabel)
         self.view.addSubview(showLoginBtn)

@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1970D8D8C07FB159BCDAE03 /* Pods_xwt_remote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31268F6ADD3C481E2F1BA0B5 /* Pods_xwt_remote.framework */; };
+		FC2CAAFF241F9C2400AA0C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAAFE241F9C2400AA0C73 /* AppDelegate.swift */; };
+		FC2CAB01241F9C2400AA0C73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB00241F9C2400AA0C73 /* SceneDelegate.swift */; };
+		FC2CAB03241F9C2400AA0C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB02241F9C2400AA0C73 /* ViewController.swift */; };
+		FC2CAB06241F9C2400AA0C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB04241F9C2400AA0C73 /* Main.storyboard */; };
+		FC2CAB08241F9C2400AA0C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB07241F9C2400AA0C73 /* Assets.xcassets */; };
+		FC2CAB0B241F9C2400AA0C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB09241F9C2400AA0C73 /* LaunchScreen.storyboard */; };
+		FC2CAB72241F9C5700AA0C73 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB12241F9C5700AA0C73 /* ViewController3.swift */; };
+		FC2CAB73241F9C5700AA0C73 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB13241F9C5700AA0C73 /* ViewController4.swift */; };
+		FC2CAB74241F9C5700AA0C73 /* HttpDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB15241F9C5700AA0C73 /* HttpDatas.swift */; };
+		FC2CAB75241F9C5700AA0C73 /* MsgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB19241F9C5700AA0C73 /* MsgTableViewCell.xib */; };
+		FC2CAB76241F9C5700AA0C73 /* SystomMsgViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB1A241F9C5700AA0C73 /* SystomMsgViewController2.swift */; };
+		FC2CAB77241F9C5700AA0C73 /* SystomMsgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB1B241F9C5700AA0C73 /* SystomMsgViewController.swift */; };
+		FC2CAB78241F9C5700AA0C73 /* SystomMsgViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB1C241F9C5700AA0C73 /* SystomMsgViewController3.swift */; };
+		FC2CAB79241F9C5700AA0C73 /* MsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB1D241F9C5700AA0C73 /* MsgTableViewCell.swift */; };
+		FC2CAB7A241F9C5700AA0C73 /* SystomMsgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB1E241F9C5700AA0C73 /* SystomMsgTableViewCell.xib */; };
+		FC2CAB7B241F9C5700AA0C73 /* SystomMsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB1F241F9C5700AA0C73 /* SystomMsgTableViewCell.swift */; };
+		FC2CAB7C241F9C5700AA0C73 /* DialogInputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB21241F9C5700AA0C73 /* DialogInputBarView.swift */; };
+		FC2CAB7D241F9C5700AA0C73 /* MsgDialogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB22241F9C5700AA0C73 /* MsgDialogDetailViewController.swift */; };
+		FC2CAB7E241F9C5700AA0C73 /* MsgTipsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB24241F9C5700AA0C73 /* MsgTipsTableViewCell.xib */; };
+		FC2CAB7F241F9C5700AA0C73 /* MsgDialogDetailCellRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB25241F9C5700AA0C73 /* MsgDialogDetailCellRight.xib */; };
+		FC2CAB80241F9C5700AA0C73 /* MsgDialogDetailCellLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB26241F9C5700AA0C73 /* MsgDialogDetailCellLeft.xib */; };
+		FC2CAB81241F9C5700AA0C73 /* MsgTipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB27241F9C5700AA0C73 /* MsgTipsTableViewCell.swift */; };
+		FC2CAB82241F9C5700AA0C73 /* MsgDialogDetailCellRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB28241F9C5700AA0C73 /* MsgDialogDetailCellRight.swift */; };
+		FC2CAB83241F9C5700AA0C73 /* MsgDialogDetailCellLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB29241F9C5700AA0C73 /* MsgDialogDetailCellLeft.swift */; };
+		FC2CAB84241F9C5700AA0C73 /* DialogInputBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB2A241F9C5700AA0C73 /* DialogInputBarView.xib */; };
+		FC2CAB85241F9C5700AA0C73 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB2C241F9C5700AA0C73 /* ContactListViewController.swift */; };
+		FC2CAB86241F9C5700AA0C73 /* ImgTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB2D241F9C5700AA0C73 /* ImgTextCell.swift */; };
+		FC2CAB87241F9C5700AA0C73 /* ImgTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB2E241F9C5700AA0C73 /* ImgTextCell.xib */; };
+		FC2CAB88241F9C5700AA0C73 /* UILocalizedIndexedCollation+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB2F241F9C5700AA0C73 /* UILocalizedIndexedCollation+Sort.swift */; };
+		FC2CAB89241F9C5700AA0C73 /* MyMsgSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB31241F9C5700AA0C73 /* MyMsgSearchView.xib */; };
+		FC2CAB8A241F9C5700AA0C73 /* MyMsgSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB32241F9C5700AA0C73 /* MyMsgSearchView.swift */; };
+		FC2CAB8B241F9C5700AA0C73 /* MyMsgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB33241F9C5700AA0C73 /* MyMsgTableViewCell.xib */; };
+		FC2CAB8C241F9C5700AA0C73 /* MyMsgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB34241F9C5700AA0C73 /* MyMsgViewController.swift */; };
+		FC2CAB8D241F9C5700AA0C73 /* MyMsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB35241F9C5700AA0C73 /* MyMsgTableViewCell.swift */; };
+		FC2CAB8E241F9C5700AA0C73 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB37241F9C5700AA0C73 /* RegisterViewController.xib */; };
+		FC2CAB8F241F9C5700AA0C73 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB38241F9C5700AA0C73 /* LoginViewController.xib */; };
+		FC2CAB90241F9C5700AA0C73 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB39241F9C5700AA0C73 /* LoginViewController.swift */; };
+		FC2CAB91241F9C5700AA0C73 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB3A241F9C5700AA0C73 /* RegisterViewController.swift */; };
+		FC2CAB92241F9C5700AA0C73 /* SetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB3C241F9C5700AA0C73 /* SetsViewController.swift */; };
+		FC2CAB93241F9C5700AA0C73 /* ConfirmPsdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB3E241F9C5700AA0C73 /* ConfirmPsdViewController.swift */; };
+		FC2CAB94241F9C5700AA0C73 /* ConfirmPsdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB3F241F9C5700AA0C73 /* ConfirmPsdViewController.xib */; };
+		FC2CAB95241F9C5700AA0C73 /* ChangePsdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB40241F9C5700AA0C73 /* ChangePsdViewController.swift */; };
+		FC2CAB96241F9C5700AA0C73 /* forgetPsdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB41241F9C5700AA0C73 /* forgetPsdViewController.xib */; };
+		FC2CAB97241F9C5700AA0C73 /* forgetPsdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB42241F9C5700AA0C73 /* forgetPsdViewController.swift */; };
+		FC2CAB98241F9C5700AA0C73 /* ChangePsdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB43241F9C5700AA0C73 /* ChangePsdViewController.xib */; };
+		FC2CAB99241F9C5700AA0C73 /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB44241F9C5700AA0C73 /* SelectLanguageViewController.swift */; };
+		FC2CAB9A241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB46241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.xib */; };
+		FC2CAB9B241F9C5700AA0C73 /* MinePickViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB47241F9C5700AA0C73 /* MinePickViews.swift */; };
+		FC2CAB9C241F9C5700AA0C73 /* AddrDetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB48241F9C5700AA0C73 /* AddrDetailCellView.swift */; };
+		FC2CAB9D241F9C5700AA0C73 /* MinePickViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB49241F9C5700AA0C73 /* MinePickViews.xib */; };
+		FC2CAB9E241F9C5700AA0C73 /* ChangeTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB4A241F9C5700AA0C73 /* ChangeTextViewController.swift */; };
+		FC2CAB9F241F9C5700AA0C73 /* ChangeAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB4B241F9C5700AA0C73 /* ChangeAddressViewController.swift */; };
+		FC2CABA0241F9C5700AA0C73 /* ChangeTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB4C241F9C5700AA0C73 /* ChangeTextViewController.xib */; };
+		FC2CABA1241F9C5700AA0C73 /* AddrDetailCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB4D241F9C5700AA0C73 /* AddrDetailCellView.xib */; };
+		FC2CABA2241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB4E241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.swift */; };
+		FC2CABA3241F9C5700AA0C73 /* ChangeEmailStep2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB50241F9C5700AA0C73 /* ChangeEmailStep2ViewController.xib */; };
+		FC2CABA4241F9C5700AA0C73 /* ChangeEmailStep3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB51241F9C5700AA0C73 /* ChangeEmailStep3ViewController.xib */; };
+		FC2CABA5241F9C5700AA0C73 /* ChangeEmailStep3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB52241F9C5700AA0C73 /* ChangeEmailStep3ViewController.swift */; };
+		FC2CABA6241F9C5700AA0C73 /* ChangeEmailStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB53241F9C5700AA0C73 /* ChangeEmailStep2ViewController.swift */; };
+		FC2CABA7241F9C5700AA0C73 /* ChangeEmailStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB54241F9C5700AA0C73 /* ChangeEmailStep1ViewController.swift */; };
+		FC2CABA8241F9C5700AA0C73 /* ChangeEmailStep1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB55241F9C5700AA0C73 /* ChangeEmailStep1ViewController.xib */; };
+		FC2CABA9241F9C5700AA0C73 /* HeadMineBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB57241F9C5700AA0C73 /* HeadMineBoxView.swift */; };
+		FC2CABAA241F9C5700AA0C73 /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB58241F9C5700AA0C73 /* PersonalInfoViewController.swift */; };
+		FC2CABAB241F9C5700AA0C73 /* HeadMineBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB59241F9C5700AA0C73 /* HeadMineBoxView.xib */; };
+		FC2CABAC241F9C5700AA0C73 /* PersonalInfoViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB5A241F9C5700AA0C73 /* PersonalInfoViewController2.swift */; };
+		FC2CABAD241F9C5700AA0C73 /* HeadMineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB5B241F9C5700AA0C73 /* HeadMineView.swift */; };
+		FC2CABAE241F9C5700AA0C73 /* HeadMineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB5C241F9C5700AA0C73 /* HeadMineView.xib */; };
+		FC2CABAF241F9C5700AA0C73 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB5E241F9C5700AA0C73 /* common.swift */; };
+		FC2CABB0241F9C5700AA0C73 /* UI_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB5F241F9C5700AA0C73 /* UI_Extension.swift */; };
+		FC2CABB1241F9C5700AA0C73 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB60241F9C5700AA0C73 /* TabBarViewController.swift */; };
+		FC2CABB2241F9C5700AA0C73 /* FathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB61241F9C5700AA0C73 /* FathViewController.swift */; };
+		FC2CABB3241F9C5700AA0C73 /* CustomAlertBox2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB63241F9C5700AA0C73 /* CustomAlertBox2.xib */; };
+		FC2CABB4241F9C5700AA0C73 /* CustomAlertBox1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB64241F9C5700AA0C73 /* CustomAlertBox1.xib */; };
+		FC2CABB5241F9C5700AA0C73 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB65241F9C5700AA0C73 /* CustomAlertViewController.swift */; };
+		FC2CABB6241F9C5700AA0C73 /* CustomPromptBox1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB66241F9C5700AA0C73 /* CustomPromptBox1.xib */; };
+		FC2CABB7241F9C5700AA0C73 /* CustomPromptBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB67241F9C5700AA0C73 /* CustomPromptBox1.swift */; };
+		FC2CABB8241F9C5700AA0C73 /* CustomAlertBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB68241F9C5700AA0C73 /* CustomAlertBox2.swift */; };
+		FC2CABB9241F9C5700AA0C73 /* CustomAlertBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB69241F9C5700AA0C73 /* CustomAlertBox1.swift */; };
+		FC2CABBA241F9C5700AA0C73 /* tableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB6B241F9C5700AA0C73 /* tableDemo.swift */; };
+		FC2CABBB241F9C5700AA0C73 /* TestTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB6C241F9C5700AA0C73 /* TestTableViewCell1.swift */; };
+		FC2CABBC241F9C5700AA0C73 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB6D241F9C5700AA0C73 /* TestVC.swift */; };
+		FC2CABBD241F9C5700AA0C73 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB6E241F9C5700AA0C73 /* Calculate.swift */; };
+		FC2CABBE241F9C5700AA0C73 /* TestTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CAB6F241F9C5700AA0C73 /* TestTableViewCell1.xib */; };
+		FC2CABBF241F9C5700AA0C73 /* TestVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB70241F9C5700AA0C73 /* TestVC2.swift */; };
+		FC2CABC0241F9C5700AA0C73 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CAB71241F9C5700AA0C73 /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31268F6ADD3C481E2F1BA0B5 /* Pods_xwt_remote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xwt_remote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C287811639C0182D56B5A119 /* Pods-xwt_remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwt_remote.release.xcconfig"; path = "Target Support Files/Pods-xwt_remote/Pods-xwt_remote.release.xcconfig"; sourceTree = "<group>"; };
+		DE14A21E5D23E9E5EB62EA83 /* Pods-xwt_remote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwt_remote.debug.xcconfig"; path = "Target Support Files/Pods-xwt_remote/Pods-xwt_remote.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2CAAFB241F9C2400AA0C73 /* xwt_remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xwt_remote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2CAAFE241F9C2400AA0C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2CAB00241F9C2400AA0C73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC2CAB02241F9C2400AA0C73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC2CAB05241F9C2400AA0C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2CAB07241F9C2400AA0C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2CAB0A241F9C2400AA0C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2CAB0C241F9C2400AA0C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2CAB12241F9C5700AA0C73 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		FC2CAB13241F9C5700AA0C73 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		FC2CAB15241F9C5700AA0C73 /* HttpDatas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpDatas.swift; sourceTree = "<group>"; };
+		FC2CAB19241F9C5700AA0C73 /* MsgTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgTableViewCell.xib; sourceTree = "<group>"; };
+		FC2CAB1A241F9C5700AA0C73 /* SystomMsgViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystomMsgViewController2.swift; sourceTree = "<group>"; };
+		FC2CAB1B241F9C5700AA0C73 /* SystomMsgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystomMsgViewController.swift; sourceTree = "<group>"; };
+		FC2CAB1C241F9C5700AA0C73 /* SystomMsgViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystomMsgViewController3.swift; sourceTree = "<group>"; };
+		FC2CAB1D241F9C5700AA0C73 /* MsgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgTableViewCell.swift; sourceTree = "<group>"; };
+		FC2CAB1E241F9C5700AA0C73 /* SystomMsgTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystomMsgTableViewCell.xib; sourceTree = "<group>"; };
+		FC2CAB1F241F9C5700AA0C73 /* SystomMsgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystomMsgTableViewCell.swift; sourceTree = "<group>"; };
+		FC2CAB21241F9C5700AA0C73 /* DialogInputBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogInputBarView.swift; sourceTree = "<group>"; };
+		FC2CAB22241F9C5700AA0C73 /* MsgDialogDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDialogDetailViewController.swift; sourceTree = "<group>"; };
+		FC2CAB24241F9C5700AA0C73 /* MsgTipsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgTipsTableViewCell.xib; sourceTree = "<group>"; };
+		FC2CAB25241F9C5700AA0C73 /* MsgDialogDetailCellRight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgDialogDetailCellRight.xib; sourceTree = "<group>"; };
+		FC2CAB26241F9C5700AA0C73 /* MsgDialogDetailCellLeft.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgDialogDetailCellLeft.xib; sourceTree = "<group>"; };
+		FC2CAB27241F9C5700AA0C73 /* MsgTipsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgTipsTableViewCell.swift; sourceTree = "<group>"; };
+		FC2CAB28241F9C5700AA0C73 /* MsgDialogDetailCellRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDialogDetailCellRight.swift; sourceTree = "<group>"; };
+		FC2CAB29241F9C5700AA0C73 /* MsgDialogDetailCellLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDialogDetailCellLeft.swift; sourceTree = "<group>"; };
+		FC2CAB2A241F9C5700AA0C73 /* DialogInputBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogInputBarView.xib; sourceTree = "<group>"; };
+		FC2CAB2C241F9C5700AA0C73 /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		FC2CAB2D241F9C5700AA0C73 /* ImgTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgTextCell.swift; sourceTree = "<group>"; };
+		FC2CAB2E241F9C5700AA0C73 /* ImgTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImgTextCell.xib; sourceTree = "<group>"; };
+		FC2CAB2F241F9C5700AA0C73 /* UILocalizedIndexedCollation+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILocalizedIndexedCollation+Sort.swift"; sourceTree = "<group>"; };
+		FC2CAB31241F9C5700AA0C73 /* MyMsgSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMsgSearchView.xib; sourceTree = "<group>"; };
+		FC2CAB32241F9C5700AA0C73 /* MyMsgSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMsgSearchView.swift; sourceTree = "<group>"; };
+		FC2CAB33241F9C5700AA0C73 /* MyMsgTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMsgTableViewCell.xib; sourceTree = "<group>"; };
+		FC2CAB34241F9C5700AA0C73 /* MyMsgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMsgViewController.swift; sourceTree = "<group>"; };
+		FC2CAB35241F9C5700AA0C73 /* MyMsgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMsgTableViewCell.swift; sourceTree = "<group>"; };
+		FC2CAB37241F9C5700AA0C73 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		FC2CAB38241F9C5700AA0C73 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FC2CAB39241F9C5700AA0C73 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC2CAB3A241F9C5700AA0C73 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FC2CAB3C241F9C5700AA0C73 /* SetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetsViewController.swift; sourceTree = "<group>"; };
+		FC2CAB3E241F9C5700AA0C73 /* ConfirmPsdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPsdViewController.swift; sourceTree = "<group>"; };
+		FC2CAB3F241F9C5700AA0C73 /* ConfirmPsdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmPsdViewController.xib; sourceTree = "<group>"; };
+		FC2CAB40241F9C5700AA0C73 /* ChangePsdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePsdViewController.swift; sourceTree = "<group>"; };
+		FC2CAB41241F9C5700AA0C73 /* forgetPsdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = forgetPsdViewController.xib; sourceTree = "<group>"; };
+		FC2CAB42241F9C5700AA0C73 /* forgetPsdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgetPsdViewController.swift; sourceTree = "<group>"; };
+		FC2CAB43241F9C5700AA0C73 /* ChangePsdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePsdViewController.xib; sourceTree = "<group>"; };
+		FC2CAB44241F9C5700AA0C73 /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
+		FC2CAB46241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddrDetailViewCellTableViewCell.xib; sourceTree = "<group>"; };
+		FC2CAB47241F9C5700AA0C73 /* MinePickViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinePickViews.swift; sourceTree = "<group>"; };
+		FC2CAB48241F9C5700AA0C73 /* AddrDetailCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddrDetailCellView.swift; sourceTree = "<group>"; };
+		FC2CAB49241F9C5700AA0C73 /* MinePickViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MinePickViews.xib; sourceTree = "<group>"; };
+		FC2CAB4A241F9C5700AA0C73 /* ChangeTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeTextViewController.swift; sourceTree = "<group>"; };
+		FC2CAB4B241F9C5700AA0C73 /* ChangeAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeAddressViewController.swift; sourceTree = "<group>"; };
+		FC2CAB4C241F9C5700AA0C73 /* ChangeTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeTextViewController.xib; sourceTree = "<group>"; };
+		FC2CAB4D241F9C5700AA0C73 /* AddrDetailCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddrDetailCellView.xib; sourceTree = "<group>"; };
+		FC2CAB4E241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddrDetailViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		FC2CAB50241F9C5700AA0C73 /* ChangeEmailStep2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeEmailStep2ViewController.xib; sourceTree = "<group>"; };
+		FC2CAB51241F9C5700AA0C73 /* ChangeEmailStep3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeEmailStep3ViewController.xib; sourceTree = "<group>"; };
+		FC2CAB52241F9C5700AA0C73 /* ChangeEmailStep3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeEmailStep3ViewController.swift; sourceTree = "<group>"; };
+		FC2CAB53241F9C5700AA0C73 /* ChangeEmailStep2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeEmailStep2ViewController.swift; sourceTree = "<group>"; };
+		FC2CAB54241F9C5700AA0C73 /* ChangeEmailStep1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeEmailStep1ViewController.swift; sourceTree = "<group>"; };
+		FC2CAB55241F9C5700AA0C73 /* ChangeEmailStep1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeEmailStep1ViewController.xib; sourceTree = "<group>"; };
+		FC2CAB57241F9C5700AA0C73 /* HeadMineBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadMineBoxView.swift; sourceTree = "<group>"; };
+		FC2CAB58241F9C5700AA0C73 /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		FC2CAB59241F9C5700AA0C73 /* HeadMineBoxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadMineBoxView.xib; sourceTree = "<group>"; };
+		FC2CAB5A241F9C5700AA0C73 /* PersonalInfoViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController2.swift; sourceTree = "<group>"; };
+		FC2CAB5B241F9C5700AA0C73 /* HeadMineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadMineView.swift; sourceTree = "<group>"; };
+		FC2CAB5C241F9C5700AA0C73 /* HeadMineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadMineView.xib; sourceTree = "<group>"; };
+		FC2CAB5E241F9C5700AA0C73 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		FC2CAB5F241F9C5700AA0C73 /* UI_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI_Extension.swift; sourceTree = "<group>"; };
+		FC2CAB60241F9C5700AA0C73 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FC2CAB61241F9C5700AA0C73 /* FathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FathViewController.swift; sourceTree = "<group>"; };
+		FC2CAB63241F9C5700AA0C73 /* CustomAlertBox2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertBox2.xib; sourceTree = "<group>"; };
+		FC2CAB64241F9C5700AA0C73 /* CustomAlertBox1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertBox1.xib; sourceTree = "<group>"; };
+		FC2CAB65241F9C5700AA0C73 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		FC2CAB66241F9C5700AA0C73 /* CustomPromptBox1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPromptBox1.xib; sourceTree = "<group>"; };
+		FC2CAB67241F9C5700AA0C73 /* CustomPromptBox1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPromptBox1.swift; sourceTree = "<group>"; };
+		FC2CAB68241F9C5700AA0C73 /* CustomAlertBox2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertBox2.swift; sourceTree = "<group>"; };
+		FC2CAB69241F9C5700AA0C73 /* CustomAlertBox1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertBox1.swift; sourceTree = "<group>"; };
+		FC2CAB6B241F9C5700AA0C73 /* tableDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableDemo.swift; sourceTree = "<group>"; };
+		FC2CAB6C241F9C5700AA0C73 /* TestTableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell1.swift; sourceTree = "<group>"; };
+		FC2CAB6D241F9C5700AA0C73 /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		FC2CAB6E241F9C5700AA0C73 /* Calculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		FC2CAB6F241F9C5700AA0C73 /* TestTableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell1.xib; sourceTree = "<group>"; };
+		FC2CAB70241F9C5700AA0C73 /* TestVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC2.swift; sourceTree = "<group>"; };
+		FC2CAB71241F9C5700AA0C73 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2CAAF8241F9C2400AA0C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1970D8D8C07FB159BCDAE03 /* Pods_xwt_remote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94359B2053E6A4053BFB56C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE14A21E5D23E9E5EB62EA83 /* Pods-xwt_remote.debug.xcconfig */,
+				C287811639C0182D56B5A119 /* Pods-xwt_remote.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2B9AA5591127E942ABC633F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31268F6ADD3C481E2F1BA0B5 /* Pods_xwt_remote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC2CAAF2241F9C2400AA0C73 = {
+			isa = PBXGroup;
+			children = (
+				FC2CAAFD241F9C2400AA0C73 /* xwt_remote */,
+				FC2CAAFC241F9C2400AA0C73 /* Products */,
+				94359B2053E6A4053BFB56C0 /* Pods */,
+				C2B9AA5591127E942ABC633F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2CAAFC241F9C2400AA0C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAAFB241F9C2400AA0C73 /* xwt_remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2CAAFD241F9C2400AA0C73 /* xwt_remote */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAAFE241F9C2400AA0C73 /* AppDelegate.swift */,
+				FC2CAB00241F9C2400AA0C73 /* SceneDelegate.swift */,
+				FC2CAB02241F9C2400AA0C73 /* ViewController.swift */,
+				FC2CAB04241F9C2400AA0C73 /* Main.storyboard */,
+				FC2CAB07241F9C2400AA0C73 /* Assets.xcassets */,
+				FC2CAB5D241F9C5700AA0C73 /* 宏文件 */,
+				FC2CAB14241F9C5700AA0C73 /* 网络请求 */,
+				FC2CAB16241F9C5700AA0C73 /* 我的 */,
+				FC2CAB62241F9C5700AA0C73 /* 自定义弹窗 */,
+				FC2CAB61241F9C5700AA0C73 /* FathViewController.swift */,
+				FC2CAB60241F9C5700AA0C73 /* TabBarViewController.swift */,
+				FC2CAB6A241F9C5700AA0C73 /* test */,
+				FC2CAB71241F9C5700AA0C73 /* ViewController2.swift */,
+				FC2CAB12241F9C5700AA0C73 /* ViewController3.swift */,
+				FC2CAB13241F9C5700AA0C73 /* ViewController4.swift */,
+				FC2CAB09241F9C2400AA0C73 /* LaunchScreen.storyboard */,
+				FC2CAB0C241F9C2400AA0C73 /* Info.plist */,
+			);
+			path = xwt_remote;
+			sourceTree = "<group>";
+		};
+		FC2CAB14241F9C5700AA0C73 /* 网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB15241F9C5700AA0C73 /* HttpDatas.swift */,
+			);
+			path = "网络请求";
+			sourceTree = "<group>";
+		};
+		FC2CAB16241F9C5700AA0C73 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB17241F9C5700AA0C73 /* 聊天 */,
+				FC2CAB36241F9C5700AA0C73 /* 登录注册 */,
+				FC2CAB3B241F9C5700AA0C73 /* 设置 */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		FC2CAB17241F9C5700AA0C73 /* 聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB18241F9C5700AA0C73 /* 系统消息 */,
+				FC2CAB20241F9C5700AA0C73 /* 消息详情 */,
+				FC2CAB2B241F9C5700AA0C73 /* 通讯录 */,
+				FC2CAB30241F9C5700AA0C73 /* 我的消息列表 */,
+			);
+			path = "聊天";
+			sourceTree = "<group>";
+		};
+		FC2CAB18241F9C5700AA0C73 /* 系统消息 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB19241F9C5700AA0C73 /* MsgTableViewCell.xib */,
+				FC2CAB1A241F9C5700AA0C73 /* SystomMsgViewController2.swift */,
+				FC2CAB1B241F9C5700AA0C73 /* SystomMsgViewController.swift */,
+				FC2CAB1C241F9C5700AA0C73 /* SystomMsgViewController3.swift */,
+				FC2CAB1D241F9C5700AA0C73 /* MsgTableViewCell.swift */,
+				FC2CAB1E241F9C5700AA0C73 /* SystomMsgTableViewCell.xib */,
+				FC2CAB1F241F9C5700AA0C73 /* SystomMsgTableViewCell.swift */,
+			);
+			path = "系统消息";
+			sourceTree = "<group>";
+		};
+		FC2CAB20241F9C5700AA0C73 /* 消息详情 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB21241F9C5700AA0C73 /* DialogInputBarView.swift */,
+				FC2CAB22241F9C5700AA0C73 /* MsgDialogDetailViewController.swift */,
+				FC2CAB23241F9C5700AA0C73 /* cell */,
+				FC2CAB2A241F9C5700AA0C73 /* DialogInputBarView.xib */,
+			);
+			path = "消息详情";
+			sourceTree = "<group>";
+		};
+		FC2CAB23241F9C5700AA0C73 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB24241F9C5700AA0C73 /* MsgTipsTableViewCell.xib */,
+				FC2CAB25241F9C5700AA0C73 /* MsgDialogDetailCellRight.xib */,
+				FC2CAB26241F9C5700AA0C73 /* MsgDialogDetailCellLeft.xib */,
+				FC2CAB27241F9C5700AA0C73 /* MsgTipsTableViewCell.swift */,
+				FC2CAB28241F9C5700AA0C73 /* MsgDialogDetailCellRight.swift */,
+				FC2CAB29241F9C5700AA0C73 /* MsgDialogDetailCellLeft.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		FC2CAB2B241F9C5700AA0C73 /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB2C241F9C5700AA0C73 /* ContactListViewController.swift */,
+				FC2CAB2D241F9C5700AA0C73 /* ImgTextCell.swift */,
+				FC2CAB2E241F9C5700AA0C73 /* ImgTextCell.xib */,
+				FC2CAB2F241F9C5700AA0C73 /* UILocalizedIndexedCollation+Sort.swift */,
+			);
+			path = "通讯录";
+			sourceTree = "<group>";
+		};
+		FC2CAB30241F9C5700AA0C73 /* 我的消息列表 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB31241F9C5700AA0C73 /* MyMsgSearchView.xib */,
+				FC2CAB32241F9C5700AA0C73 /* MyMsgSearchView.swift */,
+				FC2CAB33241F9C5700AA0C73 /* MyMsgTableViewCell.xib */,
+				FC2CAB34241F9C5700AA0C73 /* MyMsgViewController.swift */,
+				FC2CAB35241F9C5700AA0C73 /* MyMsgTableViewCell.swift */,
+			);
+			path = "我的消息列表";
+			sourceTree = "<group>";
+		};
+		FC2CAB36241F9C5700AA0C73 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB37241F9C5700AA0C73 /* RegisterViewController.xib */,
+				FC2CAB38241F9C5700AA0C73 /* LoginViewController.xib */,
+				FC2CAB39241F9C5700AA0C73 /* LoginViewController.swift */,
+				FC2CAB3A241F9C5700AA0C73 /* RegisterViewController.swift */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		FC2CAB3B241F9C5700AA0C73 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB3C241F9C5700AA0C73 /* SetsViewController.swift */,
+				FC2CAB3D241F9C5700AA0C73 /* 密码_修改_忘记 */,
+				FC2CAB44241F9C5700AA0C73 /* SelectLanguageViewController.swift */,
+				FC2CAB45241F9C5700AA0C73 /* 更改文字_地址 */,
+				FC2CAB4F241F9C5700AA0C73 /* 修改邮箱 */,
+				FC2CAB56241F9C5700AA0C73 /* 个人信息 */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		FC2CAB3D241F9C5700AA0C73 /* 密码_修改_忘记 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB3E241F9C5700AA0C73 /* ConfirmPsdViewController.swift */,
+				FC2CAB3F241F9C5700AA0C73 /* ConfirmPsdViewController.xib */,
+				FC2CAB40241F9C5700AA0C73 /* ChangePsdViewController.swift */,
+				FC2CAB41241F9C5700AA0C73 /* forgetPsdViewController.xib */,
+				FC2CAB42241F9C5700AA0C73 /* forgetPsdViewController.swift */,
+				FC2CAB43241F9C5700AA0C73 /* ChangePsdViewController.xib */,
+			);
+			path = "密码_修改_忘记";
+			sourceTree = "<group>";
+		};
+		FC2CAB45241F9C5700AA0C73 /* 更改文字_地址 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB46241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.xib */,
+				FC2CAB47241F9C5700AA0C73 /* MinePickViews.swift */,
+				FC2CAB48241F9C5700AA0C73 /* AddrDetailCellView.swift */,
+				FC2CAB49241F9C5700AA0C73 /* MinePickViews.xib */,
+				FC2CAB4A241F9C5700AA0C73 /* ChangeTextViewController.swift */,
+				FC2CAB4B241F9C5700AA0C73 /* ChangeAddressViewController.swift */,
+				FC2CAB4C241F9C5700AA0C73 /* ChangeTextViewController.xib */,
+				FC2CAB4D241F9C5700AA0C73 /* AddrDetailCellView.xib */,
+				FC2CAB4E241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.swift */,
+			);
+			path = "更改文字_地址";
+			sourceTree = "<group>";
+		};
+		FC2CAB4F241F9C5700AA0C73 /* 修改邮箱 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB50241F9C5700AA0C73 /* ChangeEmailStep2ViewController.xib */,
+				FC2CAB51241F9C5700AA0C73 /* ChangeEmailStep3ViewController.xib */,
+				FC2CAB52241F9C5700AA0C73 /* ChangeEmailStep3ViewController.swift */,
+				FC2CAB53241F9C5700AA0C73 /* ChangeEmailStep2ViewController.swift */,
+				FC2CAB54241F9C5700AA0C73 /* ChangeEmailStep1ViewController.swift */,
+				FC2CAB55241F9C5700AA0C73 /* ChangeEmailStep1ViewController.xib */,
+			);
+			path = "修改邮箱";
+			sourceTree = "<group>";
+		};
+		FC2CAB56241F9C5700AA0C73 /* 个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB57241F9C5700AA0C73 /* HeadMineBoxView.swift */,
+				FC2CAB58241F9C5700AA0C73 /* PersonalInfoViewController.swift */,
+				FC2CAB59241F9C5700AA0C73 /* HeadMineBoxView.xib */,
+				FC2CAB5A241F9C5700AA0C73 /* PersonalInfoViewController2.swift */,
+				FC2CAB5B241F9C5700AA0C73 /* HeadMineView.swift */,
+				FC2CAB5C241F9C5700AA0C73 /* HeadMineView.xib */,
+			);
+			path = "个人信息";
+			sourceTree = "<group>";
+		};
+		FC2CAB5D241F9C5700AA0C73 /* 宏文件 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB5E241F9C5700AA0C73 /* common.swift */,
+				FC2CAB5F241F9C5700AA0C73 /* UI_Extension.swift */,
+			);
+			path = "宏文件";
+			sourceTree = "<group>";
+		};
+		FC2CAB62241F9C5700AA0C73 /* 自定义弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB63241F9C5700AA0C73 /* CustomAlertBox2.xib */,
+				FC2CAB64241F9C5700AA0C73 /* CustomAlertBox1.xib */,
+				FC2CAB65241F9C5700AA0C73 /* CustomAlertViewController.swift */,
+				FC2CAB66241F9C5700AA0C73 /* CustomPromptBox1.xib */,
+				FC2CAB67241F9C5700AA0C73 /* CustomPromptBox1.swift */,
+				FC2CAB68241F9C5700AA0C73 /* CustomAlertBox2.swift */,
+				FC2CAB69241F9C5700AA0C73 /* CustomAlertBox1.swift */,
+			);
+			path = "自定义弹窗";
+			sourceTree = "<group>";
+		};
+		FC2CAB6A241F9C5700AA0C73 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CAB6B241F9C5700AA0C73 /* tableDemo.swift */,
+				FC2CAB6C241F9C5700AA0C73 /* TestTableViewCell1.swift */,
+				FC2CAB6D241F9C5700AA0C73 /* TestVC.swift */,
+				FC2CAB6E241F9C5700AA0C73 /* Calculate.swift */,
+				FC2CAB6F241F9C5700AA0C73 /* TestTableViewCell1.xib */,
+				FC2CAB70241F9C5700AA0C73 /* TestVC2.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2CAAFA241F9C2400AA0C73 /* xwt_remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2CAB0F241F9C2400AA0C73 /* Build configuration list for PBXNativeTarget "xwt_remote" */;
+			buildPhases = (
+				DE66D72FFF30183A81B36380 /* [CP] Check Pods Manifest.lock */,
+				FC2CAAF7241F9C2400AA0C73 /* Sources */,
+				FC2CAAF8241F9C2400AA0C73 /* Frameworks */,
+				FC2CAAF9241F9C2400AA0C73 /* Resources */,
+				B01F5D4CF744B4FE99304902 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xwt_remote;
+			productName = xwt_remote;
+			productReference = FC2CAAFB241F9C2400AA0C73 /* xwt_remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2CAAF3241F9C2400AA0C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Wenzhou Xin Lian Industrial co.,Ltd.";
+				TargetAttributes = {
+					FC2CAAFA241F9C2400AA0C73 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = FC2CAAF6241F9C2400AA0C73 /* Build configuration list for PBXProject "xwt_remote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2CAAF2241F9C2400AA0C73;
+			productRefGroup = FC2CAAFC241F9C2400AA0C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2CAAFA241F9C2400AA0C73 /* xwt_remote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2CAAF9241F9C2400AA0C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2CAB7A241F9C5700AA0C73 /* SystomMsgTableViewCell.xib in Resources */,
+				FC2CAB8E241F9C5700AA0C73 /* RegisterViewController.xib in Resources */,
+				FC2CABA3241F9C5700AA0C73 /* ChangeEmailStep2ViewController.xib in Resources */,
+				FC2CAB80241F9C5700AA0C73 /* MsgDialogDetailCellLeft.xib in Resources */,
+				FC2CAB94241F9C5700AA0C73 /* ConfirmPsdViewController.xib in Resources */,
+				FC2CABB4241F9C5700AA0C73 /* CustomAlertBox1.xib in Resources */,
+				FC2CABB6241F9C5700AA0C73 /* CustomPromptBox1.xib in Resources */,
+				FC2CAB9D241F9C5700AA0C73 /* MinePickViews.xib in Resources */,
+				FC2CAB0B241F9C2400AA0C73 /* LaunchScreen.storyboard in Resources */,
+				FC2CABB3241F9C5700AA0C73 /* CustomAlertBox2.xib in Resources */,
+				FC2CABA4241F9C5700AA0C73 /* ChangeEmailStep3ViewController.xib in Resources */,
+				FC2CABBE241F9C5700AA0C73 /* TestTableViewCell1.xib in Resources */,
+				FC2CAB08241F9C2400AA0C73 /* Assets.xcassets in Resources */,
+				FC2CAB84241F9C5700AA0C73 /* DialogInputBarView.xib in Resources */,
+				FC2CAB7E241F9C5700AA0C73 /* MsgTipsTableViewCell.xib in Resources */,
+				FC2CABAE241F9C5700AA0C73 /* HeadMineView.xib in Resources */,
+				FC2CAB06241F9C2400AA0C73 /* Main.storyboard in Resources */,
+				FC2CAB96241F9C5700AA0C73 /* forgetPsdViewController.xib in Resources */,
+				FC2CAB8B241F9C5700AA0C73 /* MyMsgTableViewCell.xib in Resources */,
+				FC2CAB98241F9C5700AA0C73 /* ChangePsdViewController.xib in Resources */,
+				FC2CABAB241F9C5700AA0C73 /* HeadMineBoxView.xib in Resources */,
+				FC2CAB9A241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.xib in Resources */,
+				FC2CAB7F241F9C5700AA0C73 /* MsgDialogDetailCellRight.xib in Resources */,
+				FC2CABA8241F9C5700AA0C73 /* ChangeEmailStep1ViewController.xib in Resources */,
+				FC2CABA0241F9C5700AA0C73 /* ChangeTextViewController.xib in Resources */,
+				FC2CAB89241F9C5700AA0C73 /* MyMsgSearchView.xib in Resources */,
+				FC2CABA1241F9C5700AA0C73 /* AddrDetailCellView.xib in Resources */,
+				FC2CAB87241F9C5700AA0C73 /* ImgTextCell.xib in Resources */,
+				FC2CAB8F241F9C5700AA0C73 /* LoginViewController.xib in Resources */,
+				FC2CAB75241F9C5700AA0C73 /* MsgTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B01F5D4CF744B4FE99304902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xwt_remote/Pods-xwt_remote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xwt_remote/Pods-xwt_remote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xwt_remote/Pods-xwt_remote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE66D72FFF30183A81B36380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xwt_remote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2CAAF7241F9C2400AA0C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2CABB7241F9C5700AA0C73 /* CustomPromptBox1.swift in Sources */,
+				FC2CAB82241F9C5700AA0C73 /* MsgDialogDetailCellRight.swift in Sources */,
+				FC2CABB0241F9C5700AA0C73 /* UI_Extension.swift in Sources */,
+				FC2CABBB241F9C5700AA0C73 /* TestTableViewCell1.swift in Sources */,
+				FC2CABB5241F9C5700AA0C73 /* CustomAlertViewController.swift in Sources */,
+				FC2CAB8C241F9C5700AA0C73 /* MyMsgViewController.swift in Sources */,
+				FC2CAB99241F9C5700AA0C73 /* SelectLanguageViewController.swift in Sources */,
+				FC2CAB9E241F9C5700AA0C73 /* ChangeTextViewController.swift in Sources */,
+				FC2CABBC241F9C5700AA0C73 /* TestVC.swift in Sources */,
+				FC2CAB03241F9C2400AA0C73 /* ViewController.swift in Sources */,
+				FC2CAB91241F9C5700AA0C73 /* RegisterViewController.swift in Sources */,
+				FC2CAB90241F9C5700AA0C73 /* LoginViewController.swift in Sources */,
+				FC2CAAFF241F9C2400AA0C73 /* AppDelegate.swift in Sources */,
+				FC2CABBA241F9C5700AA0C73 /* tableDemo.swift in Sources */,
+				FC2CAB72241F9C5700AA0C73 /* ViewController3.swift in Sources */,
+				FC2CABC0241F9C5700AA0C73 /* ViewController2.swift in Sources */,
+				FC2CAB85241F9C5700AA0C73 /* ContactListViewController.swift in Sources */,
+				FC2CAB7B241F9C5700AA0C73 /* SystomMsgTableViewCell.swift in Sources */,
+				FC2CABB8241F9C5700AA0C73 /* CustomAlertBox2.swift in Sources */,
+				FC2CABB2241F9C5700AA0C73 /* FathViewController.swift in Sources */,
+				FC2CAB9F241F9C5700AA0C73 /* ChangeAddressViewController.swift in Sources */,
+				FC2CABA5241F9C5700AA0C73 /* ChangeEmailStep3ViewController.swift in Sources */,
+				FC2CAB01241F9C2400AA0C73 /* SceneDelegate.swift in Sources */,
+				FC2CABAF241F9C5700AA0C73 /* common.swift in Sources */,
+				FC2CAB78241F9C5700AA0C73 /* SystomMsgViewController3.swift in Sources */,
+				FC2CAB79241F9C5700AA0C73 /* MsgTableViewCell.swift in Sources */,
+				FC2CABB9241F9C5700AA0C73 /* CustomAlertBox1.swift in Sources */,
+				FC2CAB88241F9C5700AA0C73 /* UILocalizedIndexedCollation+Sort.swift in Sources */,
+				FC2CAB97241F9C5700AA0C73 /* forgetPsdViewController.swift in Sources */,
+				FC2CABAD241F9C5700AA0C73 /* HeadMineView.swift in Sources */,
+				FC2CAB81241F9C5700AA0C73 /* MsgTipsTableViewCell.swift in Sources */,
+				FC2CAB86241F9C5700AA0C73 /* ImgTextCell.swift in Sources */,
+				FC2CABA7241F9C5700AA0C73 /* ChangeEmailStep1ViewController.swift in Sources */,
+				FC2CABB1241F9C5700AA0C73 /* TabBarViewController.swift in Sources */,
+				FC2CAB8D241F9C5700AA0C73 /* MyMsgTableViewCell.swift in Sources */,
+				FC2CAB76241F9C5700AA0C73 /* SystomMsgViewController2.swift in Sources */,
+				FC2CABA9241F9C5700AA0C73 /* HeadMineBoxView.swift in Sources */,
+				FC2CAB77241F9C5700AA0C73 /* SystomMsgViewController.swift in Sources */,
+				FC2CAB92241F9C5700AA0C73 /* SetsViewController.swift in Sources */,
+				FC2CAB93241F9C5700AA0C73 /* ConfirmPsdViewController.swift in Sources */,
+				FC2CABA2241F9C5700AA0C73 /* AddrDetailViewCellTableViewCell.swift in Sources */,
+				FC2CAB73241F9C5700AA0C73 /* ViewController4.swift in Sources */,
+				FC2CAB95241F9C5700AA0C73 /* ChangePsdViewController.swift in Sources */,
+				FC2CAB74241F9C5700AA0C73 /* HttpDatas.swift in Sources */,
+				FC2CAB83241F9C5700AA0C73 /* MsgDialogDetailCellLeft.swift in Sources */,
+				FC2CABA6241F9C5700AA0C73 /* ChangeEmailStep2ViewController.swift in Sources */,
+				FC2CAB7C241F9C5700AA0C73 /* DialogInputBarView.swift in Sources */,
+				FC2CABAA241F9C5700AA0C73 /* PersonalInfoViewController.swift in Sources */,
+				FC2CABBF241F9C5700AA0C73 /* TestVC2.swift in Sources */,
+				FC2CAB8A241F9C5700AA0C73 /* MyMsgSearchView.swift in Sources */,
+				FC2CAB9B241F9C5700AA0C73 /* MinePickViews.swift in Sources */,
+				FC2CAB9C241F9C5700AA0C73 /* AddrDetailCellView.swift in Sources */,
+				FC2CABBD241F9C5700AA0C73 /* Calculate.swift in Sources */,
+				FC2CAB7D241F9C5700AA0C73 /* MsgDialogDetailViewController.swift in Sources */,
+				FC2CABAC241F9C5700AA0C73 /* PersonalInfoViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC2CAB04241F9C2400AA0C73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2CAB05241F9C2400AA0C73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2CAB09241F9C2400AA0C73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2CAB0A241F9C2400AA0C73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2CAB0D241F9C2400AA0C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2CAB0E241F9C2400AA0C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2CAB10241F9C2400AA0C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE14A21E5D23E9E5EB62EA83 /* Pods-xwt_remote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C88W5JFB58;
+				INFOPLIST_FILE = xwt_remote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qianduan.xwt-remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC2CAB11241F9C2400AA0C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C287811639C0182D56B5A119 /* Pods-xwt_remote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C88W5JFB58;
+				INFOPLIST_FILE = xwt_remote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qianduan.xwt-remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2CAAF6241F9C2400AA0C73 /* Build configuration list for PBXProject "xwt_remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2CAB0D241F9C2400AA0C73 /* Debug */,
+				FC2CAB0E241F9C2400AA0C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2CAB0F241F9C2400AA0C73 /* Build configuration list for PBXNativeTarget "xwt_remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2CAB10241F9C2400AA0C73 /* Debug */,
+				FC2CAB11241F9C2400AA0C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2CAAF3241F9C2400AA0C73 /* Project object */;
+}

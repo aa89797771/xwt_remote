@@ -1,0 +1,6 @@
+framework module Pods_xwt_remote {
+  umbrella header "Pods-xwt_remote-umbrella.h"
+
+  export *
+  module * { export * }
+}
